@@ -1,0 +1,97 @@
+body{
+    font-family: 'Lato', sans-serif;
+     display: flex;
+     justify-content: center;
+  
+     
+     background-image: url("w1.png" ) ;
+     background-size: cover;
+    
+ }  
+ .srh{
+    
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 11px;
+    height: 55px;
+    align-items: center;
+    
+  
+ }
+ .srh i{
+    position: absolute;
+    left: 10px;
+    font-size: large;
+ }
+
+ .srh input{
+    position:absolute;
+    width: 75%;
+    height: 100%;
+    padding: 0 48px 0 42px;
+    
+    border-radius: 10px;
+    font-weight: 500;
+    border: 2px solid;
+    outline: none;
+    font-size: 22px;
+    background-color: transparent;
+    text-transform: capitalize;
+ }
+ .srh input::placeholder{
+    text-transform: capitalize;
+ }
+
+ .srh button{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+    padding: 0 40px 0 5px;
+    border: none;
+    outline: none;
+    font-size: large;
+    background-color: transparent;
+ }
+
+ ::placeholder{
+    color: black;
+ }
+ #city{
+    margin-top: 33px;
+    font-size: 33px;
+    text-align: center;
+ }
+ #temp{
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+ }
+ #type{
+    font-size: 26px;
+    margin-top: 30px;
+    text-align: center;
+ }
+ .container{
+    position: relative;
+    width: 400px;
+    height: 555px;
+    padding: 22px;
+    
+   
+    border-radius: 10px;
+    margin-top: 2%;
+    background-color: rgb(127, 217, 252);
+    backdrop-filter: blur;
+    border: 20px;
+    
+ }
+ img{
+    width: 60%;
+    align-items: center;
+    margin-top: -13px;
+    margin-left: 80px;
+    
+ }
